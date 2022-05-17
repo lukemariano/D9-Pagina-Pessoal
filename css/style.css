@@ -3,7 +3,7 @@ body{
 }
 
 .container {
-    height: fit-content;
+    height: auto;
     display: flex;
     /* justify-content: center; */
     align-items: center;
@@ -67,15 +67,21 @@ ul {
     font-size: 17px;
   }
 
-  .texto-nome{
-      display: flex;
-      height: 84%;
-      align-items: center;
-      color: white;
-  }
+.texto-nome{
+  display: flex;
+   height: 84%;
+  align-items: center;
+  color: white;
+}
+
+.design{
+  align-self: flex-end;
+}
 .perfil {
-  width: 427px;
-  margin-left: 208px;
+  /* width: 427px;
+  margin-left: 208px; */
+  width: 594px;
+  margin-left: 48px;
 }
 
 .introducao{
@@ -186,4 +192,22 @@ ul {
   display: flex;
 }
 
+.habilidades{
+  width: 70%;
+  height: 500px;
+  /* background: linear-gradient(to right, #d13843 0%, #000000 100%); */
+  background-color: white;
+}
+
+hr{
+  width: 50%;
+  margin: auto;
+  border-top: 2px solid #4a6cf7;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.separacao{
+  text-align: center;
+}
 
