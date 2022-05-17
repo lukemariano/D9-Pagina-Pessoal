@@ -3,7 +3,7 @@ body{
 }
 
 .container {
-    height: 100%;
+    height: fit-content;
     display: flex;
     /* justify-content: center; */
     align-items: center;
@@ -14,6 +14,7 @@ body{
 .apresentacao{
   width: 70%;
   height: 500px;
+  margin-top: 148px;
   /* background: linear-gradient(to right, #d13843 0%, #000000 100%); */
   border-top-left-radius: 41px;
   border-top-right-radius: 41px;
@@ -115,7 +116,7 @@ ul {
   background-color: #4a6cf7;
   border-radius: 20px;
   color: white;
-  height: 40px;
+  height: 50px;
 }
 
 .btn-more{
@@ -127,7 +128,7 @@ ul {
   background-color: #000000;
   border-radius: 20px;
   color: white;
-  height: 40px;
+  height: 50px;
 }
 
 .descricao{
@@ -159,5 +160,30 @@ ul {
   font-size: 40px;
 }
 
+.fundo-face{
+  width: 40px;
+  height: 40px;
+  border: 1px solid #828282;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  margin-right: 20px;
+}
+
+.fundo-face:hover{
+  background-color: #4a6cf7;
+}
+
+.face-logo{
+  width: 25px;
+  height: 25px;
+  
+}
+
+.icones-sociais{
+  display: flex;
+}
 
 
