@@ -234,7 +234,7 @@ ul {
 
 .habilidades{
   width: 70%;
-  height: 500px;
+  height: auto;
   /* background: linear-gradient(to right, #d13843 0%, #000000 100%); */
   background-color: white;
 }
@@ -251,3 +251,71 @@ hr{
   text-align: center;
 }
 
+.conteudo-habilidades{
+display: flex;
+width: 100%;
+
+}
+
+.titulo-habilidades{
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+  font-weight: 700;
+  text-transform: capitalize;
+  font-size: 30px;
+}
+progress{
+width: 331px;
+height: 28px;
+accent-color: #4a6cf7;
+}
+
+.texto-progress{
+  font-weight: 700;
+  font-size: 23px;
+}
+
+.align-progress{
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  text-transform: uppercase;
+  gap: 5%;
+}
+
+.about-me2{
+  padding: 90px 100px;
+  width: 576px;
+}
+
+.margem-progress{
+  margin-left: 63px;
+}
+
+.margem-progress2{
+  margin-left: 78px;
+}
+
+.img-align{
+  width: 90%;
+  display: flex;
+  align-items: flex-start;
+}
+
+.ilustration{
+  margin-left: 134px;
+  width: 500px;
+}
+
+.pc-illustration{
+  width: 500px;
+  margin-left: 100px;
+  border-radius: 30px;
+}
+
+.teste-progress{
+  width: 281px;
+  height: 28px;
+  margin-left: 24px;
+}
