@@ -1,8 +1,5 @@
 body{
     font-family: 'Inter', sans-serif;
-    background-repeat: no-repeat;
-    background-size: cover;
-    /* background-image: url(../img/blurry-gradient-haikei-.svg); */
     background: linear-gradient(to top, #4a6cf7 0%, #000000 100%);
     background-attachment: fixed;
    
@@ -15,7 +12,10 @@ body{
     align-items: center;
     flex-direction: column;
     /* background-color: aliceblue; */
-
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/background-foods.png);
+    background-attachment: fixed;
 }
 
 .apresentacao{
@@ -34,6 +34,13 @@ body{
     justify-content: center;
     font-size: 18px;
     animation: opacidade 2s;
+}
+
+.port-img{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
 }
 
 ul {
@@ -84,6 +91,13 @@ ul {
   animation: bounce 1s alternate;
   -webkit-animation: bounce 1s alternate;
   animation-iteration-count: 2;
+}
+
+.texto-sobre{
+  font-size: 19px;
+  margin-top: 10px;
+  line-height: 30px;
+  color: #81889b;
 }
 
 .design{
@@ -204,6 +218,7 @@ ul {
 
 .subtitulo {
   font-size: 40px;
+  
 }
 
 .fundo-face{
@@ -235,8 +250,13 @@ ul {
 .habilidades{
   width: 70%;
   height: auto;
-  /* background: linear-gradient(to right, #d13843 0%, #000000 100%); */
-  background-color: white;
+  background-color: #f8f9ff;
+}
+
+.projetos{
+  width: 70%;
+  height: auto;
+  background-color: #fff;
 }
 
 hr{
@@ -262,7 +282,7 @@ width: 100%;
   text-align: center;
   margin-top: 50px;
   font-weight: 700;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
   font-size: 30px;
 }
 progress{
@@ -286,7 +306,7 @@ accent-color: #4a6cf7;
 
 .about-me2{
   padding: 90px 100px;
-  width: 576px;
+  width: 90%;
 }
 
 .margem-progress{
@@ -305,12 +325,11 @@ accent-color: #4a6cf7;
 
 .ilustration{
   margin-left: 134px;
-  width: 500px;
+  width: 90%;
 }
 
 .pc-illustration{
-  width: 500px;
-  margin-left: 100px;
+  width: 90%;
   border-radius: 30px;
 }
 
@@ -318,4 +337,18 @@ accent-color: #4a6cf7;
   width: 281px;
   height: 28px;
   margin-left: 24px;
+  font-size: 40px;
+}
+
+.centralizar-progress{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.titulo-habilidades .texto-pequeno{
+  font-weight: 500;
+  margin-top: 10px;
+  padding: 0 20%;
+  color: #959cb1;
 }
