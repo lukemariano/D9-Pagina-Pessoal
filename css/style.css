@@ -81,6 +81,7 @@ ul {
     height: 50px;
     /* padding: 10px; */
     font-size: 17px;
+    cursor: pointer;
   }
 
 .texto-nome{
@@ -111,10 +112,9 @@ ul {
 }
 
 .introducao{
-  margin-left: 280px;
+  margin-left: 95px;
   color: #000000;
-  margin-top: 110px;
- 
+  margin-top: 141px;
 }
 
 @keyframes bounce {
@@ -177,6 +177,7 @@ ul {
   border-radius: 20px;
   color: white;
   height: 50px;
+  cursor: pointer;
 }
 
 .btn-more{
@@ -189,6 +190,7 @@ ul {
   border-radius: 20px;
   color: white;
   height: 50px;
+  cursor: pointer;
 }
 
 .descricao{
