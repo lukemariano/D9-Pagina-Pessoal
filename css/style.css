@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body{
     font-family: 'Inter', sans-serif;
     background: linear-gradient(to top, #4a6cf7 0%, #000000 100%);
@@ -354,3 +358,75 @@ accent-color: #4a6cf7;
   padding: 0 20%;
   color: #959cb1;
 }
+
+.conteudo-portfolio{
+  width: 85%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  /* background-color: red; */
+  padding: 90px 100px;
+}
+
+.imagem-portfolio{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.tamanho-img{
+  width: 50%;
+  float: left;
+  border-radius: 20px;
+  margin-top: auto;
+  margin-bottom: auto;
+ 
+}
+
+
+.background-color-gray{
+  background-color: #f8f9ff;
+}
+
+.align-left{
+  align-self: flex-end;
+}
+
+.align-p{
+  text-align: right;
+}
+
+.margin-left-img{
+  margin-left: 40px;
+}
+
+.imagem-portfolio > img{
+  transition: transform .2s; /* Animation */
+  cursor: pointer;
+}
+
+.imagem-portfolio > img:hover{
+  transform: scale(1.1);
+}
+
+.btn-inicio{
+  font-size: 3rem;
+  color: #fff;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  opacity: 0.3;
+}
+
+.btn-inicio:hover{
+  opacity: 1;
+}
+
