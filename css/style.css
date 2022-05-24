@@ -71,6 +71,7 @@ ul {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    cursor: pointer;
   }
   
   li a:hover {
@@ -377,7 +378,8 @@ accent-color: #4a6cf7;
 }
 
 .tamanho-img{
-  width: 50%;
+  width: 100%;
+  /* height: 100%; */
   float: left;
   border-radius: 20px;
   margin-top: auto;
@@ -402,12 +404,21 @@ accent-color: #4a6cf7;
   margin-left: 40px;
 }
 
-.imagem-portfolio > img{
-  transition: transform .2s; /* Animation */
+/* .imagem-portfolio > img{
+  transition: transform .2s; Animation
   cursor: pointer;
 }
 
 .imagem-portfolio > img:hover{
+  transform: scale(1.1);
+} */
+
+.imagem-portfolio > a > img{
+  transition: transform .2s; 
+  cursor: pointer;
+}
+
+.imagem-portfolio > a > img:hover{
   transform: scale(1.1);
 }
 
@@ -428,5 +439,74 @@ accent-color: #4a6cf7;
 
 .btn-inicio:hover{
   opacity: 1;
+}
+
+.len-a{
+  width: 100%;
+  height: 100%;
+}
+
+.teste-img-len{
+  width: 100%;
+}
+
+:root {
+  --primary-color: transparent; 
+  --background-color: transparent;
+}
+
+.timeline {
+  background: var(--primary-color);
+  margin: 20px auto;
+  padding: 20px;
+}
+
+
+.outer {
+  border-left: 2px solid #4a6cf7;
+}
+
+
+.card {
+  position: relative;
+  margin: 0 0 20px 20px;
+  padding: 10px;
+  background: rgb(255, 255, 255);
+  color: #000000;
+  border-radius: 8px;
+  max-width: 880px;
+}
+
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+.title {
+  color: #4a6cf7;
+  font-weight: 700;
+  position: relative;
+  font-size: 22px;
+}
+
+
+.title::before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: white;
+  border-radius: 999px;
+  left: -39px;
+  border: 3px solid #4a6cf7;
+}
+
+.text-timeline{
+  font-size: 20px;
+  text-align: justify;
+  line-height: 30px;
 }
 
