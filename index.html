@@ -22,6 +22,8 @@
     integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
     crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/2fd1f5b83e.js" crossorigin="anonymous"></script>
     <title>Luke Mariano</title>
 </head>
 <body>
@@ -32,10 +34,10 @@
                 <img class="port-img" src="img/logo.svg" alt="">
                 <ul>
                     <li><a class="active" id="home">Home</a></li>
-                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#sobre-mim">Sobre</a></li>
                     <li><a href="#projects">Projetos</a></li>
+                    <li><a href="#timeline">TimeLine</a></li>
                     <li><a href="#contact">Contato</a></li>
-                    <li><a href="#cv"><button class="download">Download CV</button></a></li>
                   </ul>
             </nav>
             <div class="texto-nome">
@@ -54,7 +56,8 @@
                         Desenvolvedor FullStack
                     </p>
                     <p class="descricao color-gray">Técnico em Informática & Graduando em Computação em Nuvem</p>
-                    <p><button class="btn-contato-more">Contate-me</button> <button class="btn-more">Saiba Mais</button></p>
+                    <p><a href="#contact"><button class="btn-contato-more">Contate-me</button></a> 
+                       <a href="#sobre-mim"><button class="btn-more">Saiba Mais</button></a></p>
             </div>     
             </div>     
             
@@ -62,7 +65,7 @@
         <section class="biografia">
             <div class="about-me">
 
-                <h1 class="texto-titulo">SOBRE MIM</h1>
+                <h1 class="texto-titulo" id="sobre-mim">SOBRE MIM</h1>
                 <h1 class="subtitulo">Se programar é uma arte, será que eu posso ser Da Vinci?
                     🤣</h1>
                 <p class="texto-sobre">Descobri a minha paixão por programação aos 15 anos de idade, quando iniciei no curso técnico em Informática
@@ -79,20 +82,17 @@
                 </p>
                 <div class="icones-sociais">
                     <div class="fundo-face">
-                        <img class="face-logo" src="img/icons8-f-do-facebook-50.png" alt="">
+                        <a href="https://github.com/lukemariano" target="_blank"><i class="fa-brands fa-github"></i></a>
                     </div>
                     <div class="fundo-face">
-                        <img class="face-logo" src="img/icons8-twitter-50.png" alt="">
+                       <a href=""></a> <i class="fa fa-twitter"></i>
                     </div>
                     <div class="fundo-face">
-                        <img class="face-logo" src="img/icons8-github-50.png" alt="">
+                        <a href="https://www.facebook.com/LucasDZNL/" target="_blank"><i class="fa fa-facebook"></i></a>
                     </div>
                     <div class="fundo-face">
-                        <img class="face-logo" src="img/icons8-linkedin-2-50.png" alt="">
-                        
-                    </div>
-
-                    
+                        <a href="https://www.linkedin.com/in/lucas-mariano-da-silva-luke/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                    </div>   
                 </div>
             </div>
         </section>
@@ -140,7 +140,7 @@
         
     </section>
 
-    <section class="projetos">
+    <section class="projetos" id="projects">
         <div class="separacao">
             <hr>
         </div>
@@ -156,16 +156,16 @@
         </div>
         <div class="conteudo-portfolio">
             <div class="imagem-portfolio">
-                <a class="len-a" href=""><img src="img/enzo.png" alt="" class="tamanho-img"></a>
-                <a class="len-a"><img src="img/order.png" alt="" class="tamanho-img margin-left-img"></a>
+                <a class="len-a" href="https://lukemariano.github.io/d2.4-Layout_responsivo-/" target="_blank"><img src="img/enzo.png" alt="" class="tamanho-img"></a>
+                <a class="len-a" href="https://lukemariano.github.io/D6-OrderSummary/" target="_blank"><img src="img/order.png" alt="" class="tamanho-img margin-left-img"></a>
             </div>
             <div class="imagem-portfolio">
-                <a class="len-a"><img src="img/buscador.png" alt="" class="tamanho-img"></a>
+                <a class="len-a" href="https://lukemariano.github.io/D7-Buscador/" target="_blank"><img src="img/buscador.png" alt="" class="tamanho-img"></a>
                 <a class="len-a"><img src="img/Menu.png" alt="" class="tamanho-img margin-left-img"></a>
         </div>
     </section>
 
-    <section class="habilidades">
+    <section class="timeline-section" id="timeline">
         <div class="separacao">
             <hr>
         </div>
@@ -232,10 +232,33 @@
                   </div>
                 </div>
               </div>
-        </div>
-        
+        </div>   
     </section>
-
+    <section class="contato-section">
+        <div class="separacao">
+            <hr>
+        </div>
+        <div class="titulo-habilidades"> 
+            <h1 class="texto-titulo">Contate-me</h1>
+            <h1>Card Para Contato</h1>
+            <p class="texto-pequeno">Tem algum projeto em mente? Entre em contato comigo.
+            </p>
+        <div class="conteudo-portfolio">
+            <div class="card-contact" id="contact">
+              <img class="img-background" src="img/retrato-profile.png" alt="John" style="width:100%">
+              <h1 class="luke-title">Lucas Mariano</h1>
+              <p class="title-profission">Desenvolvedor FullStack</p>
+              <p class="title-profission">Cloud Computing</p>
+              <div style="margin: 24px 0;">
+                <a class="a-card-contact" href="https://github.com/lukemariano" target="_blank"><i class="fa-brands fa-github"></i></a> 
+                <a class="a-card-contact" href="#"><i class="fa fa-twitter"></i></a>  
+                <a class="a-card-contact" href="https://www.linkedin.com/in/lucas-mariano-da-silva-luke/" target="_blank"><i class="fa fa-linkedin"></i></a>  
+                <a class="a-card-contact" href="https://www.facebook.com/LucasDZNL/" target="_blank"><i class="fa fa-facebook"></i></a> 
+              </div>
+              <p><a href="https://www.linkedin.com/in/lucas-mariano-da-silva-luke/" target="_blank"><button class="btn-card">Contact</button></a></p>
+            </div>
+        </div>
+    </section>
     <div class="btn-inicio">
         <a href="#home"><i class="fas fa-angle-up"></i> </a>
       </div>
