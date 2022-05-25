@@ -9,6 +9,11 @@ body{
    
 }
 
+.fundo-face > a{
+  text-decoration: none;
+  color: black;
+}
+
 .container {
     height: auto;
     display: flex;
@@ -114,9 +119,9 @@ ul {
 }
 
 .introducao{
-  margin-left: 95px;
+  margin-left: 200px;
   color: #000000;
-  margin-top: 141px;
+  margin-top: 130px;
 }
 
 @keyframes bounce {
