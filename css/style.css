@@ -480,6 +480,17 @@ accent-color: #4a6cf7;
   max-width: 880px;
 }
 
+.title::before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: white;
+  border-radius: 999px;
+  left: -29px;
+  border: 3px solid #4a6cf7;
+}
+
 
 .info {
   display: flex;
@@ -570,4 +581,11 @@ footer{
   text-align: center;
   font-size: 25px;
   margin-top: 200px;
+}
+
+@media (max-width: 720px){
+  body{
+    position: absolute;
+  }
+
 }
